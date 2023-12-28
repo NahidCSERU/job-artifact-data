@@ -2,7 +2,7 @@ name: Deploy website
 on:
   push:
     branches:
-      - master
+      - master #check master branch push and workflow 
 jobs:
   test:
     runs-on: ubuntu-latest
